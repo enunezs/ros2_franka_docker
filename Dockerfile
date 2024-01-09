@@ -88,6 +88,7 @@ RUN echo 'source /opt/ros/foxy/setup.bash &&\
 #CMD ["ros2", "launch", "franka_moveit_config", "moveit.launch.py", "robot_ip:=172.16.10.1"]
 
 RUN echo 'ros2 launch franka_moveit_config moveit.launch.py robot_ip:=172.16.10' >> $HOME/.bashrc
+#RUN echo 'ros2 launch franka_moveit_config moveit.launch.py robot_ip:=192.168.10' >> $HOME/.bashrc
 
 # source /opt/ros/foxy/setup.bash && source /home/user/ws/franka_ros2_ws/install/setup.bash
 
